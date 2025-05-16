@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi Amor, Jenifer 💖</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto:wght@300;400&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1059/1059834.png" type="image/x-icon">
+<body>
+    <div class="container">
+        <header>
+            <h1>Un Rincón Mágico para Ti, Jenifer ✨🥰</h1>
+        </header>
+
+        <main>
+            <p class="introduccion">Mi amor, he creado este pequeño espacio lleno de sorpresas solo para ti. 🤫 Cada carta guarda un pedacito de mi corazón. ¡Espero te guste! 💌</p>
+            
+            <div class="cartas-container">
+                <div class="carta" data-message-id="1">
+                    <img src="https://api.iconify.design/mdi:cards-heart.svg?color=%23ff7eb9" alt="Icono Carta" class="carta-icono">
+                    <span>Carta Sorpresa 🎁</span>
+                </div>
+                <div class="carta" data-message-id="2">
+                    <img src="https://api.iconify.design/mdi:cards-heart-outline.svg?color=%23ff6347" alt="Icono Carta" class="carta-icono">
+                    <span>Carta Especial 💖</span>
+                </div>
+                <div class="carta" data-message-id="3">
+                    <img src="https://api.iconify.design/mdi:email-seal.svg?color=%2387ceeb" alt="Icono Carta" class="carta-icono">
+                    <span>Carta Secreta 🤫</span>
+                </div>
+                <div class="carta" data-message-id="4">
+                    <img src="https://api.iconify.design/mdi:gift-open-outline.svg?color=%23ffd700" alt="Icono Carta" class="carta-icono">
+                    <span>Carta de Amor 💌</span>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p class="postadata">Con mucho amor tu bobo fav ❤️</p>
+        </footer>
+    </div>
+
+    <!-- Modal para mostrar el mensaje -->
+    <div id="mensajeModal" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar-modal">×</span>
+            <div class="mensaje-header">
+                <h3>Un Mensajito Especial... 📜</h3>
+            </div>
+            <div class="mensaje-cuerpo">
+                <p id="mensajeTexto"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
